@@ -79,7 +79,7 @@ class Home extends React.Component {
             menuPortalTarget={document.querySelector("body")}
             menuPosition="fixed"
           />
-          <img src={gif} className="gif" />;
+          <img src={gif} className="gif" />
         </div>
       );
     }
