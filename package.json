@@ -1,6 +1,9 @@
 {
   "name": "robot_app",
   "private": true,
+  "scripts": {
+    "postinstall": "webpack"
+  },
   "dependencies": {
     "@babel/preset-react": "^7.14.5",
     "@rails/actioncable": "^6.0.0",
