@@ -1,0 +1,23 @@
+// Place all the styles related to the Robots controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.dropdown {
+  left: 10% !important;
+  right: auto !important;
+  text-align: center !important;
+  width: 20%;
+  transform: translate(-50%, 0) !important;
+  z-index: 9999;
+}
+.gif {
+  position: absolute;
+  left: 30%;
+  top: 10%;
+  width: 500px;
+  height: 500px;
+}
+
+body {
+  background: black;
+}
