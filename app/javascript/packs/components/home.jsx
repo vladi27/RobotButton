@@ -68,7 +68,6 @@ class Home extends React.Component {
         <div>
           <Dropdown
             styles={{
-              // Fixes the overlapping problem of the component
               menu: (provided) => ({ ...provided, zIndex: 9999 }),
             }}
             options={options}
